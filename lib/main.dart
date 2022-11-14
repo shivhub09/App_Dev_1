@@ -28,6 +28,7 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       appBar: AppBar(
         toolbarHeight: 0,
         backgroundColor: Colors.white,
@@ -150,6 +151,7 @@ class _HomeState extends State<Home> {
             ),
 
             Container(
+
               padding: const EdgeInsets.fromLTRB(0, 0, 0, 10),
               margin: const EdgeInsets.fromLTRB(10, 0, 0, 0),
               child: Row(
